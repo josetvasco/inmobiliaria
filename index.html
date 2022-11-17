@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Inmobiliaria</title>
+</head>
+
+<body>
+
+    <div class="div-ubicacion">
+        <p>1141 Market St. San Francisco</p>
+        <p>(123) 456-7890</p>
+        <p>Mon - Sun: 8:00am - 6:00pm</p>
+    </div>
+
+    <div class="navegacion">
+        <nav>
+            <img id="logo" class="logo" src="./img/logo.png" alt="Logo Casa Royal">
+            <a href="./index.html">HOMEPAGE</a>
+            <a href="#id-inmuebles">PROPERTIES</a>
+            <a href="#id-agencias">AGENCIES</a>
+            <a href="#id-area">PAGES</a>
+            <a href="#id-about">ABOUT</a>
+            <a href="#id-contact">CONTACT</a>
+            <a href="./favoritos.html">FAVORITOS</a>
+            <img class="icono-menu" src="./img/icono-menu.png" alt="icono-menú">
+        </nav>
+    </div>
+    <div id="div-1" class="opacity-div1">
+        <main>
+            <div class="contenedor-busqueda">
+                <p class="title">Let Us Guide You Home</p>
+                <p class="subtitle">Find the house of yout dreams</p>
+                <div class="form-busqueda">
+                    <form action="" class="form-principal" id="form-principal">
+                        <select id="select-type" class="select-type" name="select">
+                            <option value="" selected>SELECT TYPE</option>
+                            <option value="OFICINA">- OFFICE</option>
+                            <option value="BODEGA">- WAREHOUSE</option>
+                            <option value="CASA">- HOUSE</option>
+                            <option value="APARTAMENTO">- APARTMENT</option>
+                            <option value="SHOP">- SHOP</option>
+                        </select>
+
+                        <select id="select-status" class="select-type select-status" name="select">
+                            <option value="" selected>SELECT STATUS</option>
+                            <option value="RENTA">- RENT</option>
+                            <option value="VENTA">- FOR SALE</option>
+                        </select>
+
+                        <input id="search" class="select-type" type="text"
+                            placeholder="Search for properties, suburbs or keywords...">
+
+                        <button class="find-properties">FIND PROPERTIES</button>
+                    </form>
+                </div>
+            </div>
+            <div id="id-inmuebles" class="div-inmuebles">
+                <p class="subtitle-inmuebles">CASAROYAL REAL ESTATE AGENCY</p>
+                <p class="title-inmuebles"><strong>Featured</strong> Properties</p>
+            </div>
+            <div class="div-inmuebles" id="div-inmuebles"></div>
+            <p class="button-all">ALL PROPERTIES</p>
+            <div class="hot-deal">
+                <p class="subtitle-inmuebles">CASAROYAL REAL ESTATE AGENCY</p>
+                <p class="title-inmuebles"><strong>HOT</strong> DEAL</p>
+                <div class="property-block">
+                    <div class="property-img">
+                        <img src="./img/hotdeal.png" alt="">
+                    </div>
+                    <div class="property-features">
+                        <h3>Residential Towe For Rent</h3>
+                        <h2>15 Apartments of Type B</h2>
+                        <h3>Los Angeles, CA</h3>
+                        <p>From $1,700.00 Per Month</p>
+                        <div class="property-icons">
+                            <div>
+                                <img src="./img/icon1.png" alt="">
+                                <p>1600</p>
+                                <p>Mts</p>
+                            </div>
+                            <div>
+                                <img src="./img/icon4.png" alt="">
+                                <p>2</p>
+                                <p>Beds</p>
+                            </div>
+                            <div>
+                                <img src="./img/icon3.png" alt="">
+                                <p>1</p>
+                                <p>Bath</p>
+                            </div>
+                            <div>
+                                <img src="./img/icon2.png" alt="">
+                                <p>1</p>
+                                <p>Garage</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="id-area" class="properties-area">
+                <p class="subtitle-inmuebles">CASAROYAL REAL ESTATE AGENCY</p>
+                <p class="title-inmuebles"><strong>Properties</strong> by Area</p>
+            </div>
+            <div class="properties-area-img">
+                <div>
+                    <p class="Properties-area-city">LOS ANGELES</p>
+                    <p class="properties-area-quantity">24 Properties</p>
+                </div>
+                <div>
+                    <p class="Properties-area-city">San Francisco</p>
+                    <p class="properties-area-quantity">19 Properties</p>
+                </div>
+                <div>
+                    <p class="Properties-area-city">Seattle</p>
+                    <p class="properties-area-quantity">13 Properties</p>
+                </div>
+                <div>
+                    <p class="Properties-area-city">San Diego</p>
+                    <p class="properties-area-quantity">1 Property</p>
+                </div>
+            </div>
+
+            <div id="id-agentes" class="properties-area">
+                <p class="subtitle-inmuebles">MEET OUR TEAM</p>
+                <p class="title-inmuebles"><strong>OUR</strong> AGENTS</p>
+            </div>
+            <div class="div-agentes">
+                <div class="agentes" style="background-image: url(./img/agente1.png)">
+                    <p class="real-state">Real Estate Broker</p>
+                    <p class="nombre-agentes">JOHN DOE</p>
+                    <p class="phone-agentes">123 456 7890</p>
+                    <p class="phone-agentes">agent@gmail.com</p>
+                </div>
+                <div class="agentes" style="background-image: url(./img/agente3.png)">
+                    <p class="real-state">Real Estate Broker</p>
+                    <p class="nombre-agentes">JANE DOE</p>
+                    <p class="phone-agentes">123 456 7890</p>
+                    <p class="phone-agentes">agent@gmail.com</p>
+                </div>
+                <div class="agentes" style="background-image: url(./img/agente2.png)">
+                    <p class="real-state">Real Estate Broker</p>
+                    <p class="nombre-agentes">JOHN DOE</p>
+                    <p class="phone-agentes">123 456 7890</p>
+                    <p class="phone-agentes">agent@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="div-imagen-ultima">
+                <div class="div-info-azul">
+                    <h1>Want to Sell Property?</h1>
+                    <p>Let us create a tailoder strategic marjeting plan and keep track of the selling process</p>
+                    <p class="p-boton">MORE DETAILS</p>
+                </div>
+            </div>
+
+            <div id="id-agencias">
+                <div class="properties-area">
+                    <p class="subtitle-inmuebles">MEET OUR TEAM</p>
+                    <p class="title-inmuebles"><strong>Real State</strong> Agencies</p>
+                </div>
+
+                <div class="div-agentes">
+                    <div class="real" style="background-image: url(./img/icon5.png)">
+                        <p class="state-ubi">🇺🇸 San Francisco, USA</p>
+                        <p class="state-tipo">ProHouse</p>
+                        <p class="state-phone">123 456 7890</p>
+                        <p class="state-phone">agency@gmail.com</p>
+                    </div>
+                    <div class="real" style="background-image: url(./img/icon6.png)">
+                        <p class="state-ubi">🇺🇸 Los Angeles, USA</p>
+                        <p class="state-tipo">BeHome</p>
+                        <p class="state-phone">123 456 7890</p>
+                        <p class="state-phone">agency@gmail.com</p>
+                    </div>
+                    <div class="real" style="background-image: url(./img/icon7.png)">
+                        <p class="state-ubi">🇺🇸 Seattle, USA</p>
+                        <p class="state-tipo">Alain Doe</p>
+                        <p class="state-phone">123 456 7890</p>
+                        <p class="state-phone">agency@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="properties-area">
+                    <p class="subtitle-inmuebles">CASAROYAL NEWS</p>
+                    <p class="title-inmuebles"><strong>Article</strong> & Tips</p>
+                </div>
+                <div class="div-agentes">
+                    <div class="real" style="background-image: url(./img/article1.png)">
+                        <p class="article-category">Category</p>
+                        <p class="article-name">PRO AND CONS ON A COUNTRYSIDE HOUSE</p>
+                        <p class="article-date">⌚DECEMBER 28, 2018</p>
+                    </div>
+                    <div class="real" style="background-image: url(./img/article2.png)">
+                        <p class="article-category">Category</p>
+                        <p class="article-name">PRO AND CONS ON A COUNTRYSIDE HOUSE</p>
+                        <p class="article-date">⌚DECEMBER 28, 2018</p>
+                    </div>
+                    <div class="real" style="background-image: url(./img/article3.png)">
+                        <p class="article-category">Category</p>
+                        <p class="article-name">PRO AND CONS ON A COUNTRYSIDE HOUSE</p>
+                        <p class="article-date">⌚DECEMBER 28, 2018</p>
+                    </div>
+                </div>
+                <p class="boton-more-article">MORE ARTICLES & TIPS</p>
+            </div>
+
+            <div>
+                <div id="id-about" class="properties-area">
+                    <p class="subtitle-inmuebles">CASAROYAL REAL ESTATE AGENCY</p>
+                    <p class="title-inmuebles"><strong>Our</strong> Values</p>
+                </div>
+                <div class="div-agentes">
+                    <div class="real-content-nuevo">
+                        <p class="title-values">Ensuring clear communication</p>
+                        <p class="subtitle-values">We keep you in the loop avery stop of the way. You can rely on a
+                            transparent. comprehensible flow of information.</p>
+                    </div>
+                    <div class="real-content-nuevo">
+                        <p class="title-values">Making the most of technology</p>
+                        <p class="subtitle-values">Time is precious. We guarantee a high degree of efficiency and a
+                            premium level of service by using the right tools</p>
+                    </div>
+                    <div class="real-content-nuevo">
+                        <p class="title-values">Providing excellent customer service </p>
+                        <p class="subtitle-values">We are passionate about what we do and we take pride in achieving the
+                            personalised resutls that you have mind</p>
+                    </div>
+                </div>
+                <p class="boton-more-article">READ MORE</p>
+            </div>
+
+            <div class="clientes-review">
+                <div>
+                    <p class="clients-review">CLIENTS REVIEWS</p>
+                    <h1 class="title-review"><strong>What </strong> Our Clientes Say</h1>
+                    <p class="review-resumen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eleifend
+                        nunc
+                        sem, sit amet luctus tellus tempus tempor. Interdum et malesuada fames ac ante
+                        ipsum primis in faucibus.</p>
+                    <div class="customer">
+                        <img class="img-cliente" src="./img/agente3.png" alt="foto cliente">
+                        <div>
+                            <p class="nombre-cliente">ALAN POE</p>
+                            <p class="ubicacion-cliente">SAN FRANCISCO</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <div style="background-color: #151515;">
+        <img class="logo2" src="./img/logo2.png" alt="Logo casa royal">
+        <hr>
+    </div>
+
+    <footer id="id-contact">
+
+        <div class="information">
+            <p>INFORMATION</p>
+            <ul>
+                <li>Our Contacts</li>
+                <li>Privacity Policy</li>
+                <li>terms and Conditions</li>
+                <li>FAQs</li>
+            </ul>
+        </div>
+
+        <div class="information">
+            <p>PROPERTIES</p>
+            <ul>
+                <li>Commercial</li>
+                <li>House</li>
+                <li>Office</li>
+                <li>Residential</li>
+                <li>Residential Tower</li>
+            </ul>
+        </div>
+
+        <div class="information">
+            <p>LOCATION</p>
+            <ul>
+                <li>Beverly Hills</li>
+                <li>Los Angeles</li>
+                <li>Mission Viejo</li>
+                <li>Newport Beach</li>
+                <li>Pasadena</li>
+            </ul>
+        </div>
+
+        <div class="information">
+            <p>USEFULL LINKS</p>
+            <ul>
+                <li>Blog</li>
+                <li>Our Contacts</li>
+                <li>Submit Listing</li>
+                <li>Support</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

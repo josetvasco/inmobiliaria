@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div-ubicacion p {
+    display: none;
+}
+
+.navegacion {
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.logo {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.navegacion a {
+    display: none;
+}
+
+.icono-menu {
+    width: 2rem;
+    cursor: pointer;
+}
+
+.navegacion a:hover {
+    color: rgb(37, 37, 253);
+}
+.table-favoritos {
+    table-layout: fixed;
+    /* margin: 30px; */
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    /* border-radius: 1em; */
+    /* overflow: hidden; */
+}
+th {
+    width: 450px;
+}
+th, td {
+    width: 450px;
+    padding: 0.5rem;
+    border-bottom: 2px solid white;
+}
+table tr td {
+    font-size: 1rem;
+}
+table tr:nth-child(even) {
+    background: #eee;
+}
+
+table tr:nth-child(odd) {
+    background: #ddd;
+}
+.logo2{
+    width: 200px;
+    margin-left: 5vw;
+    text-align: left;
+    margin-top: 5px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #151515;
+}
+
+
+.information {
+    color: white;
+}
+
+.information  p{
+    font-size: 2rem;
+    margin-left: 5vw;
+    margin-top: 100px;
+}
+
+.information ul{
+    margin-top: 60px;
+}
+
+.information ul li{
+    list-style: none;
+    margin-left: 4.9vw;
+    margin-top: 8px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    color: #9b9b9b;
+}
+
+.information ul li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1040px) {
+    .icono-menu {
+        display: none;
+    }
+
+    .navegacion a {
+        display: flex;
+        align-items: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: gray;
+        text-decoration: none;
+        margin-left: 1.8rem;
+        padding-bottom: 0px;
+    }
+
+    nav {
+        justify-content: flex-start;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+    .information ul{
+        margin-left: 7vw;
+    }
+}
+
+@media screen and (min-width: 794px) {
+    .div-ubicacion {
+        display: flex;
+        background-color: rgb(37, 37, 253);
+        width: 100vw;
+        padding: 13px; 
+        text-align: left;
+        color: white;
+    }
+
+    .div-ubicacion p {
+        display: flex;
+        font-size: 1.2rem;
+        margin-left: 30px;
+    }
+}
